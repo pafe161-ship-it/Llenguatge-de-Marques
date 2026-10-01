@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-color: #f6f1e7;
+}
+
+.enllaços {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    padding-bottom: 20px;
+    color: #312e2e;
+}
+
+h2 { 
+    padding-top: none;
+    text-align: center; 
+    color: #666; 
+    font-weight: normal; 
+}
+
+ol {
+    list-style: none;
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    display: block;
+    padding: 18px 25px;
+    background: white;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+footer { 
+    text-align: center; 
+    margin-top: 50px; 
+    color: #888; 
+    font-size: 0.9em; 
+}
