@@ -1,12 +1,10 @@
 body {
     background-color: #f6f1e7;
     font-size: 18px;
-    line-height: 1.6;
 }
 
 table {
     width: 600px;
-    max-width: 90%;
     margin: 0 auto;         
     border-collapse: collapse;
 }    
@@ -36,11 +34,9 @@ h2 {
 
 h3 {
     text-align: center;
-    position: static;
     left: auto;
     color: lch(74.63% 43.76 154.81);
     margin: 0 0 10px;
-    transform: none;
 }
 
 caption {
@@ -62,7 +58,7 @@ img {
     display: block;
     margin: 0 auto;
     border-radius: 15px;
-    width: 300px;
+    width: 400px;
 
 }
 
