@@ -25,6 +25,7 @@ th {
 h1 {
     text-align: center;
     color: oklab(38.822% -0.08832 0.048);
+    font-size: 50px;
 }
 
 h2 {
@@ -74,4 +75,23 @@ ul, ol, li {
     margin: 20px auto;
     font-weight: bold;
     font-size: 20px;
+}
+
+header, footer {
+    background-color: #0b2203;
+    color: #f6f1e7;
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer a:hover {
+    color: lch(74.63% 43.76 154.81);
+}
+
+footer a {
+    color: #f8f5f5;
 }
