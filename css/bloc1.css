@@ -1,6 +1,7 @@
 body {
     background-color: #f6f1e7;
     font-size: 18px;
+    margin: 0;
 }
 
 table {
@@ -24,7 +25,7 @@ th {
 
 h1 {
     text-align: center;
-    color: oklab(38.822% -0.08832 0.048);
+    color: oklab(96.629% -0.0052 0.00245);
     font-size: 50px;
 }
 
@@ -78,7 +79,7 @@ ul, ol, li {
 }
 
 header, footer {
-    background-color: #0b2203;
+    background-color: #0c2b01;
     color: #f6f1e7;
     text-align: center;
     padding: 20px;
