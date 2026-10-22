@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
 body {
     background-color: #f6f1e7;
+    color: #222;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+    line-height: 1.6;
     margin: 0;
 }
 
@@ -20,32 +25,46 @@ th {
     border: 1px solid #111;
     padding: 15px 25px;
     text-align: left;
-    color: #3d8152;
+    color: #000000;
 }
 
 h1 {
+    font-family: 'Bangers', sans-serif;
     text-align: center;
-    color: oklab(96.629% -0.0052 0.00245);
-    font-size: 50px;
+    color: #f6f1e7;
+    font-size: 60px;
+    margin: 0 0 10px;
 }
 
 h2 {
-    color: hwb(145 12% 50%);
     text-align: center;
+    border-bottom: 3px solid #c0392b;
+    padding-bottom: 5px;
+    font-size: 25px;
+
+}
+
+header h2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 0;
+    border: none;
+    padding: 0;
 }
 
 h3 {
     text-align: center;
     left: auto;
-    color: lch(74.63% 43.76 154.81);
     margin: 0 0 10px;
+    color: #c0392b;
 }
 
 caption {
     padding-bottom: 15px;
-    color: #25773d;
-    font-size: 20px;   
+    color: #000000;
+    font-size: 25px;   
     font-weight: bold;
+    color: #c0392b;
 }
 
 p {
@@ -59,8 +78,8 @@ blockquote {
 img {
     display: block;
     margin: 0 auto;
-    border-radius: 15px;
-    width: 400px;
+    border-radius: 8px;
+    width: 450px;
 
 }
 
@@ -68,6 +87,14 @@ ul, ol, li {
     text-align: left;
     margin: 0;
     padding-left: 25px;
+}
+
+a {
+    color: #c0392b;
+}
+
+a:hover {
+    color: #1c1c1c;
 }
 
 .tornar {
@@ -79,7 +106,7 @@ ul, ol, li {
 }
 
 header, footer {
-    background-color: #0c2b01;
+    background-color: #1c1c1c;
     color: #f6f1e7;
     text-align: center;
     padding: 20px;
@@ -90,9 +117,9 @@ footer {
 }
 
 footer a:hover {
-    color: lch(74.63% 43.76 154.81);
+    color: #c0392b;
 }
 
 footer a {
-    color: #f8f5f5;
+    color: #f6f1e7;
 }
